@@ -22,16 +22,13 @@ const Button = ({
 }) => {
   return (
     <button
-      className={`btn 
-      ${`${types[type]}-${color}`} 
-      ${!!rounded ? "rounded" : ""} 
-      ${!!ring ? `btn-ring-${color}` : ""}
-      ${!!shadow ? `btn-shadow-${color}` : ""}
-      ${!!material ? `btn-material` : ""}
-      ${!!loading ? `btn-loading` : ""}
-      ${!!block ? `w-full` : ""}
-
-      `}
+      className={`btn ${`${types[type]}-${color}`}${
+        !!rounded ? " rounded" : ""
+      }${!!ring ? ` btn-ring-${color}` : ""}${
+        !!shadow ? ` btn-shadow-${color}` : ""
+      }${!!material ? ` btn-material` : ""}${!!loading ? ` btn-loading` : ""}${
+        !!block ? ` w-full` : ""
+      }`}
     >
       {children}
     </button>
