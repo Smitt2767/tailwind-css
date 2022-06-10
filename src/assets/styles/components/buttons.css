@@ -1,0 +1,245 @@
+.buttons-container {
+    @apply mt-5 pb-4 border-b-2 border-gray-300
+}
+
+.buttons {
+    @apply space-x-5 mt-4
+}
+
+.btn {
+    @apply px-4 py-2 text-base inline-block transition-all duration-500 uppercase font-medium 
+}
+
+/* Buttons */
+
+.btn-primary  {
+    @apply bg-blue-500 text-white  hover:bg-blue-600
+}
+ 
+.btn-dark  {
+    @apply bg-black text-white 
+}
+
+.btn-warning  {
+    @apply bg-amber-500 text-white  hover:bg-amber-600
+}
+
+.btn-danger  {
+    @apply bg-red-500 text-white  hover:bg-red-600
+}
+
+.btn-success  {
+    @apply bg-lime-500 text-white  hover:bg-lime-600
+}
+
+.btn-teal  {
+    @apply bg-teal-500 text-white  hover:bg-teal-600
+}
+
+.btn-violet  {
+    @apply bg-violet-500 text-white  hover:bg-violet-600
+}
+
+
+/* Rings */
+
+.btn-ring-primary  {
+    @apply hover:ring-[3px] hover:ring-blue-500 hover:ring-offset-2
+}
+ 
+.btn-ring-dark  {
+    @apply hover:ring-[3px] hover:ring-black hover:ring-offset-2
+}
+
+.btn-ring-warning  {
+    @apply hover:ring-[3px] hover:ring-amber-500 hover:ring-offset-2
+}
+
+.btn-ring-danger  {
+    @apply hover:ring-[3px] hover:ring-red-500 hover:ring-offset-2
+}
+
+.btn-ring-success  {
+    @apply hover:ring-[3px] hover:ring-lime-500 hover:ring-offset-2
+}
+
+.btn-ring-teal  {
+    @apply hover:ring-[3px] hover:ring-teal-500 hover:ring-offset-2
+}
+
+.btn-ring-violet  {
+    @apply hover:ring-[3px] hover:ring-violet-500 hover:ring-offset-2
+}
+
+
+/* Shadow */
+
+.btn-shadow-primary  {
+    @apply shadow-lg shadow-blue-500/40
+}
+ 
+.btn-shadow-dark  {
+    @apply shadow-lg shadow-black/40
+}
+
+.btn-shadow-warning  {
+    @apply shadow-lg shadow-amber-500/40
+}
+
+.btn-shadow-danger  {
+    @apply shadow-lg shadow-red-500/40
+}
+
+.btn-shadow-success  {
+    @apply shadow-lg shadow-lime-500/40
+}
+
+.btn-shadow-teal  {
+    @apply shadow-lg shadow-teal-500/40
+}
+
+.btn-shadow-violet  {
+    @apply shadow-lg shadow-violet-500/40
+}
+
+/* Material */
+
+.btn-material  {
+    @apply shadow-sm relative shadow-black/40 before:absolute before:inset-0 before:h-full before:w-full before:bg-gray-100/20 before:scale-0 hover:before:scale-100 before:transition-all before:rounded-full hover:before:rounded-none 
+}
+ 
+/* Outline Buttons */
+
+.btn-outline-primary  {
+    @apply border-[3px] border-blue-500 text-blue-500  px-[13px] py-[5px]
+}
+ 
+.btn-outline-dark  {
+    @apply border-[3px] border-black text-black  px-[13px] py-[5px]
+}
+
+.btn-outline-warning  {
+    @apply border-[3px] border-amber-500 text-amber-500  px-[13px] py-[5px]
+}
+
+.btn-outline-danger  {
+    @apply border-[3px] border-red-500 text-red-500  px-[13px] py-[5px]
+}
+
+.btn-outline-success  {
+    @apply border-[3px] border-lime-500 text-lime-500  px-[13px] py-[5px]
+}
+
+.btn-outline-teal  {
+    @apply border-[3px] border-teal-500 text-teal-500  px-[13px] py-[5px]
+}
+
+.btn-outline-violet  {
+    @apply border-[3px] border-violet-500 text-violet-500  px-[13px] py-[5px]
+}
+
+
+/* Sweet Buttons */
+
+.btn-sweet {
+    @apply bg-transparent border-4 border-black px-[13px] py-[5px] relative before:absolute before:h-full
+    before:w-full before:scale-110 before:bottom-2 before:right-2 before:-z-10 hover:before:bottom-0
+     hover:before:right-0 before:transition-all before:duration-300 hover:text-white
+}
+
+.btn-sweet-primary  {
+    @apply btn-sweet before:bg-blue-500 hover:border-blue-500 
+}
+
+.btn-sweet-dark  {
+    @apply btn-sweet before:bg-black hover:border-black text-white
+}
+
+.btn-sweet-warning  {
+    @apply btn-sweet before:bg-amber-500 hover:border-amber-500 
+}
+
+.btn-sweet-danger  {
+    @apply btn-sweet before:bg-red-500 hover:border-red-500 
+}
+
+.btn-sweet-success  {
+    @apply btn-sweet before:bg-lime-500 hover:border-lime-500 
+}
+
+.btn-sweet-teal  {
+    @apply btn-sweet before:bg-teal-500 hover:border-teal-500 
+}
+
+.btn-sweet-violet  {
+    @apply btn-sweet before:bg-violet-500 hover:border-violet-500 
+}
+
+/* Light Buttons */
+
+.btn-light-primary  {
+    @apply bg-blue-100 text-blue-500
+}
+ 
+.btn-light-dark  {
+    @apply bg-gray-100 text-black
+}
+
+.btn-light-warning  {
+    @apply bg-amber-100 text-amber-500
+}
+
+.btn-light-danger  {
+    @apply bg-red-100 text-red-500
+}
+
+.btn-light-success  {
+    @apply bg-lime-100 text-lime-500
+}
+
+.btn-light-teal  {
+    @apply bg-teal-100 text-teal-500
+}
+
+.btn-light-violet  {
+    @apply bg-violet-100 text-violet-500
+}
+
+/* Gradient Buttons */
+
+.btn-gradient-primary  {
+    @apply bg-gradient-to-r from-blue-500 to-blue-100 text-white
+}
+.btn-gradient-dark  {
+    @apply bg-gradient-to-r from-black to-gray-100 text-white
+}
+
+.btn-gradient-warning  {
+    @apply bg-gradient-to-r from-amber-500 to-amber-100 text-white
+}
+
+.btn-gradient-danger  {
+    @apply bg-gradient-to-r from-red-500 to-red-100 text-white
+}
+
+.btn-gradient-success  {
+    @apply bg-gradient-to-r from-lime-500 to-lime-100 text-white
+}
+
+.btn-gradient-teal  {
+    @apply bg-gradient-to-r from-teal-500 to-teal-100 text-white
+}
+
+.btn-gradient-violet  {
+    @apply bg-gradient-to-r from-violet-500 to-violet-100 text-white
+}
+
+/* Loading Buttons */
+
+.btn-loading {
+    @apply px-5 py-[10px]
+}
+
+.btn .spinner {
+    @apply h-6 w-6 border-4 border-white rounded-full block animate-spin border-t-black/30 border-r-black/30
+}
